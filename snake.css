@@ -1,0 +1,49 @@
+#top{
+    text-align:center;
+    display: block;
+    width:336.5px;
+    margin:auto;
+    position:relative;
+}
+#snake{
+    display: absolute;
+    width: 100px;
+    height: 75px;
+    margin:auto;
+}
+canvas{
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+#highscore{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#score{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#buttonContainer{
+    display: absolute;
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: darkgreen;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: -5px;
+}
